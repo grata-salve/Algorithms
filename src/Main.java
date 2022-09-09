@@ -17,7 +17,7 @@ public class Main {
 
         Sort.sortPerson(people, "Age");
 
-        for (int i = 0; i < 100000; i+=1000)
+        for (int i = 0; i < 100000; i += 1000)
             System.out.println(people[i]);
 
         System.out.println(UsersCount.countUsersWithEqualWeight(people, 50));
